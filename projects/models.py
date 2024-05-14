@@ -5,5 +5,5 @@ class Project(models.Model):
     area = models.CharField(max_length=200)
     description = models.TextField()
     ubication = models.CharField(max_length=200)
-    date = models.DateTimeField()
+    date = models.DateField()
     user = models.CharField(max_length=50)  
